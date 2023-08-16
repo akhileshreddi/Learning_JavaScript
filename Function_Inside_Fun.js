@@ -25,15 +25,15 @@ console.log(div(20,5));
 ////////
 
 function fun1(){
-    const myvar = "value1"
+    const chan = "value1"
     
     const fun2 = ()=>{
-        const myvar = "value69"
-        console.log("Inside fun2",myvar)                //It prints value69   ***(But when above line commented then it prints value1 )
+        const chan = "value69"
+        console.log("Inside fun2",chan)                //It prints value69   ***(But when above line commented then it prints value1 )
     }
 
-    console.log(myvar)                 //value1
+    console.log(chan)                 //value1
     fun2()
-    console.log(myvar)                //value1
+    console.log(chan)                //value1
 }
-
+// changes made
