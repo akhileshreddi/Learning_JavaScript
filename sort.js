@@ -52,3 +52,7 @@ console.log(ans)                             // returns false    because Not eve
 const len3 = [2,4,8,10,12];
 const ans2 = len3.every((b)=>b%2===0);
 console.log(ans2)                           //return true
+
+
+
+const score = [21,22,13,14,15]
