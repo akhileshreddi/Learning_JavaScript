@@ -55,4 +55,4 @@ console.log(ans2)                           //return true
 
 
 
-const score = [21,22,13,14,15]
+const score = [21,22,13,14,15,29]
