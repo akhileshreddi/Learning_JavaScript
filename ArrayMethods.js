@@ -111,3 +111,41 @@ console.log(cartSum)
 
 
 
+// Every
+
+// It return whether true or false
+
+const score = [2,10,8,20,22,24,3]
+
+const ans = score.every((number)=>number%2==0)       //return true only every value is even
+console.log("ans", ans)
+
+
+//Some method
+//If one is present return true
+
+const ans1 = score.some((num)=>num%2==0)           //returns true if atleast one is true
+console.log(ans1) 
+
+
+
+//Fill method
+const arry = new Array(5).fill(false)
+console.log(arry)
+
+const narray = [1,2,3,4,5,6,7,8]
+narray.fill(-1,2,7)                            //Fills  -1  from(2,7)
+console.log(narray)
+
+
+//splice
+
+const items = ["item1","item 2","item 3","item 4","item 5"]
+items.splice(1,2)                         //From index 1 it deletes 2 items
+console.log(items)
+
+items.splice(1,0,"changed_item")  //inserted after index 1
+console.log(items)
+
+items.splice(1,2,"deleted_item")
+console.log(items)                     //deletes 2 items after index 1 and added deleteditem
